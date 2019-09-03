@@ -14,6 +14,7 @@ let outputPath = path.normalize(`${__dirname}/../dist.zip`)
 let archvie = archiver('zip', { zlib: { level: 9 } })
 
 output.on('close', function() {
+  console.log(outputPath)
   console.log(archive.pointer() + ' total bytes');
   console.log('archiver has been finalized and the output file descriptor has closed.');
 })
