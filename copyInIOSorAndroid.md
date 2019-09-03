@@ -1,3 +1,4 @@
+## 兼容Android 与 IOS 移动web站点 点击按钮复制方案
 ```
 function copy(message) {
         var input = document.createElement("input");
