@@ -1,0 +1,25 @@
+{
+  "name": "tab-note",
+  "version": "1.0.0",
+  "description": "TabTang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TabCrazy/tab-note.git"
+  },
+  "keywords": [
+    "tab-note"
+  ],
+  "author": "tabtang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TabCrazy/tab-note/issues"
+  },
+  "homepage": "https://github.com/TabCrazy/tab-note#readme",
+  "devDependencies": {
+    "vuepress": "^1.1.0"
+  }
+}
